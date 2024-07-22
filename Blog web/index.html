@@ -3,16 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Blog web site</title>
-    <style src="style.css"> </style>
-    <script src="script.js"> </script>
+    <title>Advanced Blogging Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<header>
-    <div class="logo">
-        <h1 class="logo-text"> Blog Web</h1>
-    </div>
-</header>
 <body>
-    
+    <header>
+        <nav>
+            <h1>Blogging Website</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="posts">
+            <div class="post" id="post-template">
+                <h2 class="post-title"></h2>
+                <p class="post-content"></p>
+                <button class="read-more">Read More</button>
+            </div>
+        </section>
+        <section id="new-post">
+            <h2>Create a New Post</h2>
+            <form id="post-form">
+                <input type="text" id="title" placeholder="Title" required>
+                <textarea id="content" placeholder="Content" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Blogging Website</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
