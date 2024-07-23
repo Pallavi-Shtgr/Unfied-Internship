@@ -23,16 +23,16 @@ BLOG WEBSITE
  ● Content
 ● Dateofpublication
  ● Animagerelated to the post (You can use placeholder images).
-
+------------------------------------------------
  4. Navigation:
  ● Implement a navigation menu that allows users to navigate between the different blog
  posts. You can use HTML lists for this purpose.
-
+---------------------------------------------------
  5. Comment Section:
  ● Addacommentsection to each blog post. Users should be able to leave comments with
  their names and messages. Use JavaScript to handle the submission of comments and
  display them on the page.
-
+----------------------------------------------------
  6. Responsiveness:
  ● Ensurethat your blog is responsive and adapts to different screen sizes. Implement CSS
  media queries to optimize the layout for mobile devices
