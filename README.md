@@ -1,4 +1,5 @@
 Unified Mentorship Projects
+
 This repository contains projects I worked on during the Unified Mentorship program. The projects focus on web development, including an image slider, visual gallery, and blog website. 
 Projects
 ----------------------------------------------------------------------------------------------
